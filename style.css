@@ -15,6 +15,10 @@ li{
   color: white;
 }
 
+li a.active{
+  color: #0f0;
+}
+
 span{
   color: white;
 }
@@ -98,9 +102,10 @@ a {
 
 .project-card {
   background: #111;
-  padding: 1rem;
+  padding: 0.5rem;
   border: 1px solid #0f0;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .project-card img {
