@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #0f0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links a.active {
+  color: #0f0;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #111;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar .logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  color: white;
+}
+
+.navbar .nav-links a:hover {
+  color: rgb(10, 187, 10);
+}
+
+.hero {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00ff00;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.hero .socials img {
+  width: 30px;
+  margin: 0 0.5rem;
+}
+
+/* Project Detail Styles */
+.project-detail {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.project-detail h1 {
+  text-align: center;
+  color: #00ff00;
+  margin-bottom: 1rem;
+}
+
+.project-detail .main-image {
+  width: 100%;
+  margin: 1rem 0 2rem;
+  border-radius: 10px;
+}
+
+.project-detail .content h2 {
+  margin-top: 1.5rem;
+  color: #0f0;
+}
+
+.project-detail .content p,
+.project-detail .content ul {
+  margin-top: 0.5rem;
+  color: #ccc;
+}
+
+.project-detail ul {
+  padding-left: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #111;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer h2 {
+  color: #0f0;
+  margin-bottom: 1rem;
+}
+
+.footer-icons img {
+  width: 30px;
+  margin: 0 0.5rem;
+  ;
+}
+
+.footer p {
+  margin-top: 1rem;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .project-detail h1 {
+    font-size: 1.5rem;
+  }
+}

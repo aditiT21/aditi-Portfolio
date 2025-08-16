@@ -7,7 +7,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #000;
-  color: #0f0;
+  color: rgb(255, 255, 255);
   line-height: 1.6;
 }
 
@@ -55,7 +55,7 @@ a {
 }
 
 .navbar .nav-links a:hover {
-  text-decoration: underline;
+  color: rgb(10, 187, 10);
 }
 
 .hero {
@@ -126,6 +126,12 @@ a {
   color: rgb(255, 255, 255);
   border-radius: 5px;
   cursor: pointer;
+}
+
+.see-more:hover {
+  background-color: #0f0;
+  color: #000;
+
 }
 
 .skills {
