@@ -94,7 +94,7 @@ a {
 
 .project-cards {
   display: grid;
-  gap: 2rem;
+ gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   max-width: 1000px;
   margin: auto;
@@ -102,7 +102,7 @@ a {
 
 .project-card {
   background: #111;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   border: 1px solid #0f0;
   border-radius: 10px;
   cursor: pointer;
