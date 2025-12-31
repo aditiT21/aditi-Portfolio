@@ -1,0 +1,9 @@
+{
+  "particles": {
+    "number": { "value": 70 },
+    "color": { "value": "#ffffff" },
+    "opacity": { "value": 0.25 },
+    "size": { "value": 2 },
+    "move": { "enable": true, "speed": 0.8 }
+  }
+}

@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+#particles-js {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: #0b0b0b; /* or your preferred color */
+}
+
 
 body {
   font-family: 'Montserrat', sans-serif;
