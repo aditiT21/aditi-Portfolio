@@ -9,6 +9,14 @@
   z-index: -1;
   background: #0b0b0b; /* or your preferred color */
 }
+.corner-credit {
+  position: fixed;
+  bottom: 12px;
+  left: 8px;
+  font-size: 0.6rem;
+  color: rgba(241, 219, 219, 0.715);
+  pointer-events: none;
+}
 
 
 body {
@@ -186,6 +194,9 @@ a {
   margin-top: 1rem;
   color: #ccc;
 }
+.mob-corner-credit{
+  display: none;
+}
 
 @media (max-width: 600px) {
   .hero h1 {
@@ -193,5 +204,16 @@ a {
   }
   .project-card h3 {
     font-size: 0.9rem;
+  }
+  .corner-credit{
+    display: none;
+  }
+  .mob-corner-credit{
+    display: block;
+    text-align: center;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 1.5rem 0;
+    font-family: 'Montserrat', sans-serif;
   }
 }
